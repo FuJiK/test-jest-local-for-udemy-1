@@ -5,7 +5,7 @@ describe('Greet', () => {
   test('renders correctly', () => {
     render(<Greet />)
     const textElement = screen.getByText('Hello Guest')
-    // /hello/iのように、/iを付けると大文字小文字を区別しない。
+    // /hello/iのように、/iを付けると大文字小文字を区別しない 。
     expect(textElement).toBeInTheDocument()
   })
 
